@@ -1,4 +1,12 @@
 {
   "app": "npx ts-node --prefer-ts-exts bin/cdk-starter.ts",
-  "context": {}
+  "context": {
+    "branch": "dev",
+    "dev": {
+      "account": "501613675539",
+      "region": "us-west-2",
+      "repoName": "cdk-ts",
+      "appName": "testApp"
+    }
+  }
 }
